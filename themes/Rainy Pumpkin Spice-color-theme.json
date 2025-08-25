@@ -1,0 +1,74 @@
+{
+  "name": "Rainy Pumpkin Spice",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E2326",
+    "editor.foreground": "#5c492f",
+    "activityBar.background": "#2A2F32",
+    "sideBar.background": "#252B2E",
+    "titleBar.activeBackground": "#2A2F32",
+    
+    // Ruler settings
+    "editorRuler.foreground": "#3B4145", // Subtle grey for the vertical lines
+    
+    // Warm accent colors inspired by pumpkin spice and tea
+    "activityBar.foreground": "#D68B5C",
+    "titleBar.activeForeground": "#C17F51",
+    "statusBar.background": "#943E20",
+    "button.background": "#B25D3A",
+    
+    // Syntax highlighting
+    "editor.selectionBackground": "#4E3629",
+    "editorCursor.foreground": "#D68B5C",
+    "editorLineNumber.foreground": "#766356",
+    
+    // Rain-inspired elements
+    "scrollbarSlider.background": "#3B4145",
+    "scrollbarSlider.hoverBackground": "#4A5056"
+  },
+  
+  // Add this to your VS Code settings to enable rulers
+  "[javascript]": {
+    "editor.rulers": [80, 120]
+  },
+  "[typescript]": {
+    "editor.rulers": [80, 120]
+  },
+  "[python]": {
+    "editor.rulers": [80, 120]
+  },
+  
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#8B9AA4"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#D4A168"
+      }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#C17F51"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#B7C9D3"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#5C6D76",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}

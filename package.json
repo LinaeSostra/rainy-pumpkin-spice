@@ -1,0 +1,38 @@
+{
+  "name": "rainy-pumpkin-spice",
+  "displayName": "Rainy Pumpkin Spice",
+  "description": "it's raining and i've got my pumpkin spice latte candles ready with a warm oolong tea",
+  "version": "1.0.0",
+  "publisher": "linaesostra",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linaesostra/rainy-pumpkin-spice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linaesostra/rainy-pumpkin-spice/issues"
+  },
+  "homepage": "https://github.com/linaesostra/rainy-pumpkin-spice#readme",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "rainy",
+    "pumpkin spice",
+    "cozy"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rainy Pumpkin Spice",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rainy-pumpkin-spice-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
